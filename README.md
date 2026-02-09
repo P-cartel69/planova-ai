@@ -1,9 +1,9 @@
 # 🌍 PLANOVA AI  
 ### Intelligent AI-Powered Travel Planning Platform
 
-PLANOVA AI is a full-stack AI travel planning application that generates optimized, personalized travel itineraries using Large Language Models (LLMs).  
+PLANOVA AI is a full-stack AI travel planning application that generates optimized, personalized travel itineraries using Large Language Models (LLMs).
 
-It integrates real-time weather data, dynamic destination imagery, Google Maps embedding, budget optimization, and PDF export functionality.
+It integrates real-time weather insights, dynamic destination imagery, Google Maps embedding, budget optimization, and PDF export functionality.
 
 ---
 
@@ -22,21 +22,48 @@ It integrates real-time weather data, dynamic destination imagery, Google Maps e
 
 ---
 
+## 📸 Application Preview
+
+### 🏠 Home Screen
+![Home](screenshots/home.png)
+
+---
+
+### ✈️ Generated Travel Plan
+![Travel Plan](screenshots/travel_plan.png)
+
+---
+
+### 🌄 Destination Gallery
+![Gallery](screenshots/gallery.png)
+
+---
+
+### 🌦 Weather Integration
+![Weather](screenshots/weather.png)
+
+---
+
+### 📜 Sidebar Trip History
+![History](screenshots/history.png)
+
+---
+
 ## 🧠 Tech Stack
 
-- **Frontend:** Streamlit
-- **Backend Logic:** Python
-- **LLM Provider:** Groq API (openai/gpt-oss-120b)
-- **Weather API:** OpenWeather
-- **Image API:** Unsplash
-- **PDF Generation:** ReportLab
-- **State Management:** Streamlit Session State
+- **Frontend:** Streamlit  
+- **Backend Logic:** Python  
+- **LLM Provider:** Groq API (`openai/gpt-oss-120b`)  
+- **Weather API:** OpenWeather  
+- **Image API:** Unsplash  
+- **PDF Generation:** ReportLab  
+- **State Management:** Streamlit Session State  
 
 ---
 
 ## 🏗 Architecture Overview
 
-1. User inputs travel preferences
+1. User enters travel preferences
 2. System calculates per-person budget
 3. LLM generates optimized itinerary
 4. Weather data influences suggestions
